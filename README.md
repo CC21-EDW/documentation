@@ -3,6 +3,7 @@
 ## Preparation
 - [x] Create Dummy GMail Account
   - codecamp2021.edw@gmail.com (PW distributed by internal mail, or ask [arburk](https://github.com/arburk))
+- [VC Room](https://demo.bigbluebutton.org/gl/arn-biq-n38-7ze)
 - [ ] Cloud provider? OpenShift?
   - Ask Nik
 - [ ] Kakfa Setup
