@@ -35,7 +35,7 @@ We agreed on using the following technologies:
   * focus
   * synergies
 
-##References
+## References
 * [Github - CodeCamp 2021, Event Driven Workflow](https://github.com/CC21-EDW)
 * [Github Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [IntelliJ IDEA](https://www.jetbrains.com/de-de/idea/)
