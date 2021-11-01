@@ -9,5 +9,5 @@
 ## Consequences
 (_buletted list of all consequences, good and bad, we expect or know._)
 
-##References
+## References
 (_Bulleted list of all links providing more details._)
