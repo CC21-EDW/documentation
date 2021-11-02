@@ -1,7 +1,8 @@
-# (_Descriptive title specifying decision clearly_)
+# We have a clear naming policy for event topics.
 
 ## Description
-(_Brief description of the Architecture Decision Record_)
+We have to provide naming conventions as producers and consumers will be added completely independent.
+
 
 ## Rationale
 (_bulleted list of all reasons, why we decided that way. Could also link to RfA work._)
