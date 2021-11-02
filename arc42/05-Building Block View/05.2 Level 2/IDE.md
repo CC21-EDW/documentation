@@ -3,7 +3,7 @@
 ## Troubleshooting
 
 ### Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-Starting the springboot server provides teh following warning:
+Starting the springboot server provides the following warning:
 ```
 OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
 ```
