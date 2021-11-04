@@ -2,16 +2,22 @@
 'https://plantuml.com/component-diagram
 
 frame "Event Driven Workflow" {
-  [Strava]
-  [StravaConnect]
+  [Strava Portal] as [Strava]
+  [Komoot Portal] as [Komoot]
+
+  [Strava Connector] as [StravaConnect]
+  [Kommoot Connector] as [KommootConnect]
+
+  [Event-Bus] as [Kafka]
+
+  [Sports-Repository] as [SportsRepo]
+
+  [WorkflowControlCenter] as [WF-CC]
+
   [Kafka] -- WorkflowStatus
-  [Kafka] -- StravaActivity
   [Kafka] -- KomootActivity
-  [Komoot]
-  [KommootConnect]
-  [SportsRepository]
+  [Kafka] -- StravaActivity
   [FileConnect]
-  [WorkflowControlCenter]
 
   database "PostgreSQL" {
     frame "SPORTS" {
@@ -21,7 +27,8 @@ frame "Event Driven Workflow" {
 }
 
 [FileConnect] --> [Kafka]
-[SportsRepository] --> [Kafka]
+[SportsRepo] --> [Kafka]
+[WF-CC] --> WorkflowStatus
 
 [StravaConnect] --> [Strava]
 StravaActivity <-- [StravaConnect]
@@ -30,7 +37,6 @@ WorkflowStatus <-- [StravaConnect]
 [KommootConnect] --> [Komoot]
 KomootActivity <-- [KommootConnect]
 WorkflowStatus <-- [KommootConnect]
-
 
 [ACTIVITY] <-- [SportsRepository]
 
