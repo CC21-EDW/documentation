@@ -1,21 +1,43 @@
 @startuml
 'https://plantuml.com/use-case-diagram
 
+User as User
+(Record activity) as (Record)
+
 frame "Event Driven Workflow"{
-    [Database] -- [Event-Bus]
-    [Event-Bus] -- (Synchronize activities)
-    [Event-Bus] -- (UploadActivities)
+    (Synchronize activities) as (Synchronize)
+    (Upload activities) as (Upload)
+    (View activities) as (View)
+
+    [Database] as [DB]
+    [Event-Bus] as [Kafka]
+    [File-System] as [Files]
+
+    [DB] -- [Kafka]
+    [Files] -- [Kafka]
+    [Kafka] -- (Synchronize)
+    [Kafka] -- (Upload)
 }
 
-User - (Record activity)
-[Strava] -- (Record activity)
+(Export activity) as (Export)
 
-User -- (Synchronize activities)
-[Strava] -- (Synchronize activities)
+[Runmeter-App] as [Runmeter]
+[Strava Portal] as [Strava]
+[Komoot-Portal] as [Komoot]
 
-User -- (View actvities)
-[Komoot] --- (View actvities)
+User - (Record)
+[Strava] -- (Record)
+[Runmeter] -- (Record)
 
-[Komoot] -- (UploadActivities)
+User -- (Synchronize)
+[Strava] -- (Synchronize)
 
+User -- (View)
+[Komoot] --- (View)
+
+[Komoot] -- (Upload)
+
+User - (Export)
+[Runmeter] --- (Export)
+[Files] --- (Export)
 @enduml
