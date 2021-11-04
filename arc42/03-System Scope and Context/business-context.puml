@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+frame "Event Driven Workflow"{
+    [Database] -- [Event-Bus]
+    [Event-Bus] -- (Synchronize activities)
+    [Event-Bus] -- (UploadActivities)
+}
+
+User - (Record activity)
+[Strava] -- (Record activity)
+
+User -- (Synchronize activities)
+[Strava] -- (Synchronize activities)
+
+User -- (View actvities)
+[Komoot] --- (View actvities)
+
+[Komoot] -- (UploadActivities)
+
+@enduml
