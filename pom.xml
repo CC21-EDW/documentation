@@ -31,7 +31,7 @@
                     <sourceFiles>
                         <directory>${basedir}</directory>
                         <includes>
-                            <include>arc42/**/*.puml</include>
+                            <include>**/*.puml</include>
                         </includes>
                     </sourceFiles>
                     <outputInSourceDirectory>true</outputInSourceDirectory>

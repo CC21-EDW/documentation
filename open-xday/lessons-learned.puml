@@ -1,0 +1,51 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+caption CC21-EDW
+title Lessons Learned: Tech Stack
+
+* CC21-EDW
+** REST Services
+*** Springboot
+*** !!! OpenAPI
+*** !!! Security
+
+** Boilerplate Code
+*** Lombok
+**** https://projectlombok.org/
+**** dedicated to Stephan Stäheli
+*** Mapstruct
+**** https://mapstruct.org/
+*** Flyway
+
+** Kafka
+*** Consumer/Producer
+*** Kafka-Streams
+*** Avro-Schema
+**** ??? maven plugins
+
+** Serverless Function
+*** knative
+*** Integration knative - kafka
+*** kubernetes
+
+** Development Environment
+*** CI/CD
+**** Maven
+**** (Gradle)
+**** Github Actions
+
+*** docker-compose image
+**** Kafka
+**** PostgreSQL
+**** Zookeeper (Kafka)
+**** Schema Registry (Kafka))
+
+** Testing
+*** @testcontainer
+
+** Documentation
+*** PlantUml
+*** arc42 as git repo
+
+@endmindmap

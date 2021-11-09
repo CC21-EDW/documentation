@@ -1,0 +1,14 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+caption CC21-EDW
+title Busines Goals
+
+* Busines Goals
+** use Kafka topics to enable workflow
+** provide a control center to visualize and monitor workflow
+** integrate serverless functions for rapid/ massive parallel use
+** provide reference example as open-source
+** ensure workflow without centralized control
+
+@endmindmap
