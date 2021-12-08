@@ -38,6 +38,6 @@ WorkflowStatus <-- [StravaConnect]
 KomootActivity <-- [KommootConnect]
 WorkflowStatus <-- [KommootConnect]
 
-[ACTIVITY] <-- [SportsRepository]
+[ACTIVITY] <-- [SportsRepo]
 
 @enduml
