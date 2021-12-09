@@ -17,15 +17,21 @@
 - Knative can react on events
 - Knative can serve
 - Scaling to Zero
-call the https://myurl/hello
+call the
+```bash
+https://myurl/hello
+
 NAME                                     READY   STATUS
 hello-world                              2/2     Running
 hello-world                              2/2     Terminating
 hello-world                              1/2     Terminating
 hello-world                              0/2     Terminating
-
-recall the https://myurl/hello
+```
+recall the url
+```bash
+https://myurl/hello
 hello-world                              0/2     Pending
 hello-world                              0/2     ContainerCreating
 hello-world                              1/2     Running
 hello-world                              2/2     Running
+```
