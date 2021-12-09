@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+[Operating System] as os
+
+[Docker] as docker
+os o-- docker
+
+[Kubernetes] as kubernetes
+docker o-- kubernetes
+
+[Serverless Platform] as knative
+kubernetes o-- knative
+[Eventing] as eventing
+[Serving] as serving
+
+knative o-- eventing
+knative o-- serving
+
+[Kafka] as kafka
+eventing o-- kafka
+
+[SpringBoot Service] as service
+serving o-- service
+
+@enduml

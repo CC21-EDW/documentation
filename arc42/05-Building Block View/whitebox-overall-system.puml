@@ -1,43 +1,31 @@
 @startuml
 'https://plantuml.com/component-diagram
 
+!include whitebox-components.pu!portals
+!include whitebox-components.pu!edw-core
+
 frame "Event Driven Workflow" {
-  [Strava Portal] as [Strava]
-  [Komoot Portal] as [Komoot]
-
-  [Strava Connector] as [StravaConnect]
-  [Kommoot Connector] as [KommootConnect]
-
-  [Event-Bus] as [Kafka]
-
-  [Sports-Repository] as [SportsRepo]
-
-  [WorkflowControlCenter] as [WF-CC]
-
-  [Kafka] -- WorkflowStatus
-  [Kafka] -- KomootActivity
-  [Kafka] -- StravaActivity
-  [FileConnect]
-
-  database "PostgreSQL" {
-    frame "SPORTS" {
-      [ACTIVITY]
+    frame "Serverless"{
+        [Serverless Platform] as [knative]
+        () "Transformation" as transformation
+        () "Validation" as validation
+        knative O-- validation
+        knative o-- transformation
     }
-  }
 }
 
-[FileConnect] --> [Kafka]
-[SportsRepo] --> [Kafka]
-[WF-CC] --> WorkflowStatus
+[SportsRepo] <-- DomainActivity : consume
 
-[StravaConnect] --> [Strava]
-StravaActivity <-- [StravaConnect]
-WorkflowStatus <-- [StravaConnect]
+[StravaConnect] --> [Strava] : get
+StravaActivity <-- [StravaConnect] : publish
 
-[KommootConnect] --> [Komoot]
-KomootActivity <-- [KommootConnect]
-WorkflowStatus <-- [KommootConnect]
+[FileConnect] --> runmeterFiles : load
+StravaActivity <-- [FileConnect] : publish
 
-[ACTIVITY] <-- [SportsRepo]
+validation <-- StravaActivity : consume
+validation --> StravaActivityError : publish
+
+transformation <-- StravaActivity : consume
+transformation --> DomainActivity : publish
 
 @enduml
