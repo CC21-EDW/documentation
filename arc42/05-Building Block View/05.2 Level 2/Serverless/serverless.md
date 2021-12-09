@@ -37,5 +37,5 @@ hello-world                              2/2     Running
 to the new revision of your app.
 
 ## Documentation
-https://knative.dev/docs
-https://docs.openshift.com/container-platform/4.9/serverless/serverless-getting-started.html
+- https://knative.dev/docs
+- https://docs.openshift.com/container-platform/4.9/serverless/serverless-getting-started.html
