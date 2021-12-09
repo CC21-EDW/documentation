@@ -1,0 +1,48 @@
+@startdef(id=edw-core)
+
+frame "Event Driven Workflow" {
+    frame "Producers"{
+        [Strava Connector] as [StravaConnect]
+        [Komoot Connector] as [KomootConnect]
+        [File Connector] as [FileConnect]
+    }
+
+    frame "Data Store"{
+        [Sports-Repository] as [SportsRepo]
+    }
+
+    frame "Event Bus"{
+        () "dz.edw.activity" as DomainActivity
+        () "dz.edw.workflow\nconnect.status" as WorkflowStatus
+        () "lz.edw.komoot-\nconnect.activity" as KomootActivity
+        () "lz.edw.strava-\nconnect.activity" as StravaActivity
+        () "lz.edw.strava-\nconnect.activity.error" as StravaActivityError
+    }
+
+    database "PostgreSQL" {
+        frame "SPORTS" {
+          [ACTIVITY]
+        }
+    }
+}
+
+[ACTIVITY] <--> [SportsRepo] : CRUD
+@enddef
+
+@startdef(id=portals)
+    frame "Portals"{
+        [Runmeter] as runmeter
+        () "Runmeter Files" as runmeterFiles
+        [Strava Portal] as [Strava]
+        runmeter --> runmeterFiles : export
+        [Komoot Portal] as [Komoot]
+    }
+@enddef
+
+@startdef(id=workflow)
+frame "Event Driven Workflow" {
+    frame "Workflow Control"{
+        [WorkflowControlCenter] as [WF-CC]
+    }
+}
+@enddef
