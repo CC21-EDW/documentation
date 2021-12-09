@@ -46,3 +46,16 @@ frame "Event Driven Workflow" {
     }
 }
 @enddef
+
+@startdef(id=serverless)
+frame "Event Driven Workflow" {
+    frame "Serverless"{
+        [Serverless Platform] as [knative]
+        () "Transformation" as transformation
+        () "Validation" as validation
+        knative O-- validation
+        knative o-- transformation
+    }
+}
+@enddef
+

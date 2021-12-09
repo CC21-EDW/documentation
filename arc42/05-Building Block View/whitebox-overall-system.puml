@@ -3,16 +3,7 @@
 
 !include whitebox-components.pu!portals
 !include whitebox-components.pu!edw-core
-
-frame "Event Driven Workflow" {
-    frame "Serverless"{
-        [Serverless Platform] as [knative]
-        () "Transformation" as transformation
-        () "Validation" as validation
-        knative O-- validation
-        knative o-- transformation
-    }
-}
+!include whitebox-components.pu!serverless
 
 [SportsRepo] <-- DomainActivity : consume
 
