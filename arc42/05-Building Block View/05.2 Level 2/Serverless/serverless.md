@@ -9,7 +9,7 @@
 - May send information to a online media, like teams or slack
 
 ## Challenges
-- Installation on local resources are limited, needs CPU and Memory
+- Installation on local resources are limited, need of CPU and Memory
 - Stand-by "can" kills knative running system (resouce problem)
 - Knative supports Kafka, but the installation on a Kubernetes Cluster is not that easy
 
