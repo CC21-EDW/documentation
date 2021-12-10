@@ -8,6 +8,14 @@
 - Identify whether storing data on a DB is feasible or not
 - May send information to a online media, like teams or slack
 
+## Local Development Environment
+- Docker with Kubernetes installed
+- or Minikube
+- or Kind
+- Knative
+- Strimzi Kafka
+- Command line tool, kn & kubectl
+
 ## Challenges
 - Installation on local resources are limited, need of CPU and Memory
 - Stand-by "can" kills knative running system (resouce problem)
@@ -33,8 +41,13 @@ hello-world                              0/2     ContainerCreating
 hello-world                              1/2     Running
 hello-world                              2/2     Running
 ```
-- traffic splitting for e.g. if you have a new version of your application, you can split the traffic by n% 
+- traffic splitting for e.g. if you have a new version of your application, you can split the traffic by "n%" 
 to the new revision of your app.
+
+## Next Steps
+- try integrate Kafka
+- implement REST endpoints, which doesn't need to be up always
+- implement Serverless function for e.g send messages (SMS), email, react on crypto currency changes.....
 
 ## Documentation
 - https://knative.dev/docs
