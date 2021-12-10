@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="397px" preserveAspectRatio="none" style="width:648px;height:397px;background:#FFFFFF;" version="1.1" viewBox="0 0 648 397" width="648px" zoomAndPan="magnify"><defs><filter height="300%" id="f16nae2yo30gk2" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[5bdf219cc3b76c81b283dcec53599e99]
+cluster Local--><polygon fill="#FFFFFF" filter="url(#f16nae2yo30gk2)" points="16,6,59,6,66,29.6094,396,29.6094,396,254,16,254,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="66" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="20" y="22.5332">Local</text><!--MD5=[2908e47dfa3d82cbdce4ded0838fdac2]
+cluster Cloud--><path d="M436.8506,162.0535 C441.2048,155.4183 446.2383,155.4616 451.0564,161.535 C456.0089,153.4422 461.8252,153.3354 467.9938,160.1535 C471.8406,153.7286 478.1302,154.0624 481.0726,161.0363 C485.7698,153.2294 490.5739,151.4491 496.9182,159.3778 C501.0438,150.3867 506.2556,150.0836 512.281,157.611 C517.7174,149.9406 523.2618,150.3075 528.7793,157.5211 C532.9448,149.7064 538.8444,150.4145 543.5491,156.9667 C549.5856,151.794 555.1107,152.2313 558.738,159.8316 C563.5296,151.076 569.7674,152.2881 575.0843,159.2865 C581.6458,151.7744 586.7977,153.6304 591.1375,161.5914 C595.0515,156.6588 600.3511,155.4788 603.6798,162.2201 C612.419,154.0893 623.2586,157.3851 626,169 C626.8591,169.4107 627.1406,170.1732 626.2908,170.8521 C634.7759,174.0542 635.365,180.8101 627.7339,185.5902 C636.9417,189.9299 635.8222,197.0052 629.167,202.6755 C639.2374,208.3989 637.4163,214.9512 629.385,220.8912 C637.861,223.9532 637.429,231.2814 630.738,235.7267 C640.2803,239.2805 641.8296,247.8534 632.879,253.62 C639.8644,258.8136 641.7139,264.1284 633.4559,269.8634 C641.3823,274.6833 640.6127,282.0901 632.8698,286.353 C637.9248,292.5283 638.9135,297.7202 630.0685,301.2884 C639.914,306.9364 637.6972,314.9474 629.6217,320.1713 C637.8642,325.3587 637.3245,331.8766 629.152,336.5945 C635.8961,340.549 635.4414,347.3604 629.2305,351.3837 C635.8309,361.3713 632.8277,373.2532 619,374 C619.8296,373.8045 620.4782,374.2946 620.1709,375.2044 C617.2024,383.3272 610.6293,384.1253 605.2348,377.694 C599.4205,384.3302 594.3086,385.0822 588.6952,377.461 C584.4118,385.3667 579.5584,383.6006 574.5986,378.1764 C571.3451,386.9741 564.9004,388.0164 559.1079,380.6025 C554.5192,388.9837 549.3105,389.397 543.0185,382.3826 C537.7339,389.5612 532.0118,390.5119 527.2649,381.8478 C522.2224,388.3465 516.6365,388.0521 512.0726,381.2991 C507.985,387.4289 502.687,386.804 499.1692,380.6982 C493.5194,387.8263 486.4138,387.5607 482.6658,378.7314 C476.8885,385.9701 471.1857,386.0537 466.1866,377.8984 C462.2193,383.2152 456.5339,383.8642 452.7628,377.6696 C439.7894,387.9533 429.9668,382.2614 428,367 C428.854,366.8837 429.1274,367.4722 428.9013,368.1806 C420.194,363.8267 419.0849,355.9486 428.0448,350.7277 C421.1678,346.6423 420.2808,341.8288 425.5513,335.7245 C416.4951,331.9564 416.4481,324.3274 423.8593,318.9029 C415.3436,313.9287 414.9076,307.2847 422.6662,301.2129 C414.8227,296.8767 416.704,290.6493 422.7477,286.3894 C413.6728,282.16 413.9696,274.7428 421.2954,269.1332 C414.822,264.551 413.9225,257.0372 422.2566,253.3572 C413.6738,247.9666 416.0697,241.4646 423.0519,236.8228 C414.816,231.1756 417.5721,223.7701 425.324,220.3248 C418.0588,214.0011 416.9407,208.5228 426.1507,202.9846 C417.5621,196.9509 418.3624,190.7813 427.525,186.2012 C416.9661,174.4051 419.733,165.8192 435,162 C435.6624,161.1368 436.2387,161.1693 436.8506,162.0535 " fill="#FFFFFF" filter="url(#f16nae2yo30gk2)" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="506.5" y="181.5332">Cloud</text><!--MD5=[8c837a6f1013bac8237ac5516895691b]
+entity ide--><a href="https://www.jetbrains.com/de-de/idea/" target="_top" title="https://www.jetbrains.com/de-de/idea/" xlink:actuate="onRequest" xlink:href="https://www.jetbrains.com/de-de/idea/" xlink:show="new" xlink:title="https://www.jetbrains.com/de-de/idea/" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f16nae2yo30gk2)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="113" x="266.5" y="42"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="359.5" y="47"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="357.5" y="49"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="357.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="281.5" y="76.5332">IntelliJ IDEA</text></a><!--MD5=[5ff5fa45ad236cb7c8993bec112332ca]
+entity console--><rect fill="#FEFECE" filter="url(#f16nae2yo30gk2)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="95" x="32.5" y="190"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="107.5" y="195"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="105.5" y="197"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="105.5" y="201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="47.5" y="224.5332">Terminal</text><!--MD5=[11fa01443fe50a6a26e5f9d4ef816fb0]
+entity build--><a href="https://maven.apache.org/" target="_top" title="https://maven.apache.org/" xlink:actuate="onRequest" xlink:href="https://maven.apache.org/" xlink:show="new" xlink:title="https://maven.apache.org/" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f16nae2yo30gk2)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="163" y="190"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="225" y="195"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="223" y="197"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="223" y="201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="178" y="224.5332">Maven</text></a><!--MD5=[3edf002acd77159710cb69573829cd73]
+entity case--><a href="https://plantuml.com/de/" target="_top" title="https://plantuml.com/de/" xlink:actuate="onRequest" xlink:href="https://plantuml.com/de/" xlink:show="new" xlink:title="https://plantuml.com/de/" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f16nae2yo30gk2)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="100" x="280" y="190"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="360" y="195"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="358" y="197"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="358" y="201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="295" y="224.5332">PlantUML</text></a><!--MD5=[7c0f197cad09c4d86c8b8989e1030b9e]
+entity docker--><a href="https://www.docker.com/" target="_top" title="https://www.docker.com/" xlink:actuate="onRequest" xlink:href="https://www.docker.com/" xlink:show="new" xlink:title="https://www.docker.com/" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f16nae2yo30gk2)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="85" x="37.5" y="42"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="102.5" y="47"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="100.5" y="49"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="100.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="52.5" y="76.5332">Docker</text></a><!--MD5=[7340d21865f26272178f69ae87cb2451]
+entity cicd--><rect fill="#FEFECE" filter="url(#f16nae2yo30gk2)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="461" y="190"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="523" y="195"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="521" y="197"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="521" y="201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="476" y="224.5332">Github</text><!--MD5=[afdd736a927e015311d8afd10b7fbc87]
+entity cc21edw--><a href="https://github.com/orgs/CC21-EDW/repositories" target="_top" title="https://github.com/orgs/CC21-EDW/repositories" xlink:actuate="onRequest" xlink:href="https://github.com/orgs/CC21-EDW/repositories" xlink:show="new" xlink:title="https://github.com/orgs/CC21-EDW/repositories" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f16nae2yo30gk2)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="182" x="436" y="301"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="598" y="306"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="596" y="308"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="596" y="312"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="451" y="335.5332">CodeCamp 2021,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="451" y="353.1426">Event Driven Workflow</text></a><!--MD5=[fd8cafd6f331069e0c1ad9329bc8c8fc]
+reverse link ide to build--><path d="M278.3,98.31 C270.37,104.96 262.55,112.31 256,120 C237.88,141.26 223.05,169.8 213.92,189.63 " fill="none" id="ide-backto-build" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="288.71,90,281.5252,90.6148,279.3293,97.4835,286.5141,96.8686,288.71,90" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="257" y="134.4951">embedded</text><!--MD5=[7e5959811a7915c9a23c4e11f28e2591]
+reverse link ide to case--><path d="M324.74,103.37 C326.04,130.5 327.78,166.73 328.9,189.97 " fill="none" id="ide-backto-case" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="324.11,90.13,320.4048,96.3164,324.6902,102.116,328.3954,95.9296,324.11,90.13" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="328" y="134.4951">plugin</text><!--MD5=[6d34e635022d097d9038055a8fdd4568]
+link docker to console--><path d="M80,90.13 C80,117.47 80,162.68 80,189.97 " fill="none" id="docker-console" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="81" y="134.4951">runs on</text><!--MD5=[a7e35d342ffeef49a230e63b77367bc9]
+reverse link cicd to cc21edw--><path d="M509.73,251.34 C513.11,267.19 517.02,285.61 520.27,300.88 " fill="none" id="cicd-backto-cc21edw" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="506.94,238.21,504.2793,244.9123,509.4427,249.9461,512.1034,243.2438,506.94,238.21" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[df7427dce5a5a7c97f625fb28b095a26]
+link ide to cicd--><path d="M351.36,90.13 C383.57,116.4 436.01,159.18 469.75,186.7 " fill="none" id="ide-to-cicd" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="473.77,189.97,469.3232,181.1822,469.8951,186.81,464.2673,187.382,473.77,189.97" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="408" y="134.4951">commit/ push/ pull</text><!--MD5=[0a9004b683475be47831a9803afcb8c7]
+@startuml
+'https://plantuml.com/component-diagram
+
+package "Local"{
+    [IntelliJ IDEA] as ide [[https://www.jetbrains.com/de-de/idea/]]
+    [Terminal] as console
+    [Maven] as build [[https://maven.apache.org/]]
+    ide o- - build : embedded
+    [PlantUML] as case [[https://plantuml.com/de/]]
+    ide o- - case : plugin
+    [Docker] as docker [[https://www.docker.com/]]
+    docker - - console : runs on
+}
+
+cloud "Cloud"{
+    [Github] as cicd
+    [CodeCamp 2021,\nEvent Driven Workflow] as cc21edw [[https://github.com/orgs/CC21-EDW/repositories]]
+    cicd o- - cc21edw
+}
+
+ide - -> cicd : commit/ push/ pull
+
+@enduml
+
+@startuml
+
+package "Local"{
+    [IntelliJ IDEA] as ide [[https://www.jetbrains.com/de-de/idea/]]
+    [Terminal] as console
+    [Maven] as build [[https://maven.apache.org/]]
+    ide o- - build : embedded
+    [PlantUML] as case [[https://plantuml.com/de/]]
+    ide o- - case : plugin
+    [Docker] as docker [[https://www.docker.com/]]
+    docker - - console : runs on
+}
+
+cloud "Cloud"{
+    [Github] as cicd
+    [CodeCamp 2021,\nEvent Driven Workflow] as cc21edw [[https://github.com/orgs/CC21-EDW/repositories]]
+    cicd o- - cc21edw
+}
+
+ide - -> cicd : commit/ push/ pull
+
+@enduml
+
+PlantUML version 1.2021.15(Tue Nov 30 17:45:34 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: de
+Country: CH
+--></g></svg>

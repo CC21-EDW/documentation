@@ -1,7 +1,7 @@
 # IDE
 
 ## Overview
-![Overview-IDE](ide.png)
+![Overview-IDE](ide.svg)
 
 ## Troubleshooting
 
