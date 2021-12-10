@@ -13,10 +13,9 @@ StravaActivity <-- [StravaConnect] : publish
 [FileConnect] --> runmeterFiles : load
 StravaActivity <-- [FileConnect] : publish
 
-validation <-- StravaActivity : consume
-validation --> StravaActivityError : publish
-
+transformation --> validation : call
 transformation <-- StravaActivity : consume
 transformation --> DomainActivity : publish
+transformation --> StravaActivityError : publish
 
 @enduml
