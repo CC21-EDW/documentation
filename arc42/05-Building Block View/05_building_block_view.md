@@ -5,6 +5,7 @@
 ### Activity Flow
 The following overview shows, what components are participating in the workflow of grabbing activities from a portal and
 putting it in the database:
+
 ![Whitebox Overall System - Activities](whitebox-overall-system.png)
 
 ### Control Flow
