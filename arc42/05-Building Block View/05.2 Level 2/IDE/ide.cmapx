@@ -1,0 +1,7 @@
+<map id="ide_map" name="ide_map">
+<area shape="rect" id="id1" href="https://maven.apache.org/" title="https://maven.apache.org/" alt="" coords="163,190,245,237"/>
+<area shape="rect" id="id2" href="https://www.docker.com/" title="https://www.docker.com/" alt="" coords="37,42,122,89"/>
+<area shape="rect" id="id3" href="https://plantuml.com/de/" title="https://plantuml.com/de/" alt="" coords="280,190,380,237"/>
+<area shape="rect" id="id4" href="https://www.jetbrains.com/de-de/idea/" title="https://www.jetbrains.com/de-de/idea/" alt="" coords="266,42,379,89"/>
+<area shape="rect" id="id5" href="https://github.com/orgs/CC21-EDW/repositories" title="https://github.com/orgs/CC21-EDW/repositories" alt="" coords="436,301,618,366"/>
+</map>
