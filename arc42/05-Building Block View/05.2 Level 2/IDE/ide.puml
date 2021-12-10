@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+package "Local"{
+    [IntelliJ IDEA] as ide [[https://www.jetbrains.com/de-de/idea/]]
+    [Terminal] as console
+    [Maven] as build [[https://maven.apache.org/]]
+    ide o-- build : embedded
+    [PlantUML] as case [[https://plantuml.com/de/]]
+    ide o-- case : plugin
+    [Docker] as docker [[https://www.docker.com/]]
+    docker -- console : runs on
+}
+
+cloud "Cloud"{
+    [Github] as cicd
+    [CodeCamp 2021,\nEvent Driven Workflow] as cc21edw [[https://github.com/orgs/CC21-EDW/repositories]]
+    cicd o-- cc21edw
+}
+
+ide --> cicd : commit/ push/ pull
+
+@enduml

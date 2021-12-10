@@ -1,43 +1,46 @@
 @startuml
 'https://plantuml.com/use-case-diagram
 
+caption CC21-EDW
+title Business Context
+
 User as User
-(Record activity) as (Record)
+(View activities) as view #lightblue
+(Export activities) as export #lightblue
+(Record activities) as record #lightblue
 
 frame "Event Driven Workflow"{
-    (Synchronize activities) as (Synchronize)
-    (Upload activities) as (Upload)
-    (View activities) as (View)
+    (Synchronize activities) as synch #lightblue
+    (Upload activities) as upload #lightblue
+    (Store activities) as store #lightblue
 
     [Database] as [DB]
     [Event-Bus] as [Kafka]
     [File-System] as [Files]
 
-    [DB] -- [Kafka]
     [Files] -- [Kafka]
-    [Kafka] -- (Synchronize)
-    [Kafka] -- (Upload)
+    [Kafka] -- synch
+    [Kafka] -- upload
+    [Kafka] -- store
 }
 
-(Export activity) as (Export)
 
-[Runmeter-App] as [Runmeter]
-[Strava Portal] as [Strava]
-[Komoot-Portal] as [Komoot]
+[Activity Portal] as ActivityPortal
 
-User - (Record)
-[Strava] -- (Record)
-[Runmeter] -- (Record)
+User - record
+ActivityPortal -- record
 
-User -- (Synchronize)
-[Strava] -- (Synchronize)
+User -- synch
+ActivityPortal -- synch
 
-User -- (View)
-[Komoot] --- (View)
+User -- view
+ActivityPortal --- view
 
-[Komoot] -- (Upload)
+ActivityPortal -- upload
 
-User - (Export)
-[Runmeter] --- (Export)
-[Files] --- (Export)
+User - export
+ActivityPortal --- export
+Files --- export
+
+DB -- store
 @enduml

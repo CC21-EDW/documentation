@@ -1,5 +1,8 @@
 # IDE
 
+## Overview
+![Overview-IDE](ide.png)
+
 ## Troubleshooting
 
 ### Options -Xverify:none and -noverify were deprecated in JDK 13

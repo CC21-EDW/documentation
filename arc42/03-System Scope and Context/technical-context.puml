@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+caption CC21-EDW
+title Technical Context
+
+!include ../05-Building Block View/whitebox-components.pu!portals
+!include ../05-Building Block View/whitebox-components.pu!edw-core
+!include ../05-Building Block View/whitebox-components.pu!serverless
+
+@enduml
